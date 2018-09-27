@@ -19,8 +19,8 @@ def getExCellName(n):
 ##### Test Cases #######
 
 print(getExCellName(1))            # Prints A1
-print(getExCellName(17179869184))  # Prints A1
-print(getExCellName(17179869185))  # Prints XFD1048576
+print(getExCellName(17179869184))  # Prints XFD1048576
+print(getExCellName(17179869185))  # Prints Cell Out Of Range
 print(getExCellName(0))            # Prints Cell Out Of Range
 print(getExCellName(-1))           # Prints Cell Out Of Range
 print(getExCellName('Hello'))      # Prints Cell Out Of Range
