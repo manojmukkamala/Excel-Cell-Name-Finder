@@ -4,7 +4,7 @@ Python Program to display the Excel Cell Name when Cell Number is given as input
 <br />
 Assuming the cell numbers are assigned column wise i.e. 
 <br />
-Cell Name      Cell Number
+
 <br />
 A1          ->      1
 <br />
