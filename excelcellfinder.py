@@ -18,9 +18,9 @@ def getCellName(n):
             
 ##### Test Cases #######
 
-getCellName(1)            # Returns A1
-getCellName(17179869184)  # Returns A1
-getCellName(17179869185)  # Returns XFD1048576
-getCellName(0)            # Returns 'Cell Out Of Range'
-getCellName(-1)           # Returns 'Cell Out Of Range'
-getCellName('Hello')      # Returns 'Cell Out Of Range'
+print(getCellName(1))            # Prints A1
+print(getCellName(17179869184))  # Prints A1
+print(getCellName(17179869185))  # Prints XFD1048576
+print(getCellName(0))            # Prints Cell Out Of Range
+print(getCellName(-1))           # Prints Cell Out Of Range
+print(getCellName('Hello'))      # Prints Cell Out Of Range
