@@ -1,4 +1,4 @@
-# Excel-Cell-Name-Finder
+# Find-Excel-Cell-Name
 <br />
 Python Program to display the Excel Cell Name when Cell Number is given as input.
 <br />
