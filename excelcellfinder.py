@@ -1,4 +1,4 @@
-def getCellName(n):
+def getExCellName(n):
     
     if (n <= 0 or n > 17179869184):
         return('Cell Out Of Range')
@@ -18,11 +18,11 @@ def getCellName(n):
             
 ##### Test Cases #######
 
-print(getCellName(1))            # Prints A1
-print(getCellName(17179869184))  # Prints A1
-print(getCellName(17179869185))  # Prints XFD1048576
-print(getCellName(0))            # Prints Cell Out Of Range
-print(getCellName(-1))           # Prints Cell Out Of Range
-print(getCellName('Hello'))      # Prints Cell Out Of Range
+print(getExCellName(1))            # Prints A1
+print(getExCellName(17179869184))  # Prints A1
+print(getExCellName(17179869185))  # Prints XFD1048576
+print(getExCellName(0))            # Prints Cell Out Of Range
+print(getExCellName(-1))           # Prints Cell Out Of Range
+print(getExCellName('Hello'))      # Prints Cell Out Of Range
 
 
